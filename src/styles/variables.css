@@ -7,9 +7,9 @@
   --black: #171718;
   --black-border: #26292d;
   --white: #fff;
-  --blue: #269c95;
+  --yellow: #f9a01b;
 
-  --accent: var(--blue);
+  --accent: var(--yellow);
 
   /* Navbar */
   --nav-bg: var(--black);
@@ -19,4 +19,8 @@
   /* Footer */
   --footer-bg: var(--black);
   --footer-text: var(--white);
+
+  /* Header */
+  --header-bg: var(--black);
+  --header-text: var(--white);
 }
