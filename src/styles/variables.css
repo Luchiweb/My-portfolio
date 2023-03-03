@@ -15,9 +15,8 @@
   --nav-bg: var(--black);
   --nav-border: var(--black-border);
   --nav-text: var(--white);
-}
 
-html,
-body {
-  font-family: "DM Sans", sans-serif;
+  /* Footer */
+  --footer-bg: var(--black);
+  --footer-text: var(--white);
 }
