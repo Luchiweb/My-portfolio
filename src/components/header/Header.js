@@ -2,18 +2,18 @@ import React from "react";
 
 export function Header() {
   return (
-    <header class="header">
-      <div class="header__wrapper">
-        <h1 class="header__title">
+    <header className="header">
+      <div className="header__wrapper">
+        <h1 className="header__title">
           <strong>
             Hi, my name is <em>Lui</em>
           </strong>
           <br />a frontend developer
         </h1>
-        <div class="header__text">
+        <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" class="btn">
+        <a href="#!" className="btn">
           Download CV
         </a>
       </div>

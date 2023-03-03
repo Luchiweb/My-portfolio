@@ -10,6 +10,9 @@
   --yellow: #f9a01b;
 
   --accent: var(--yellow);
+  --page-bg: var(--white);
+  --text-color: var(--black);
+  --title-1: var(--accent);
 
   /* Navbar */
   --nav-bg: var(--black);
@@ -23,4 +26,9 @@
   /* Header */
   --header-bg: var(--black);
   --header-text: var(--white);
+
+  /* Project */
+  --project-card-bg: var(--white);
+  --project-card-text: var(--black);
+  --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
 }
