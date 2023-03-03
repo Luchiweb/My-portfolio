@@ -2,12 +2,12 @@ import React from "react";
 import "./Projects.css";
 
 import { projects } from "../../helpers/projectList";
-import { Project } from "../../components/project/Project";
+import { ProjectCard } from "../../components/projectCard/ProjectCard";
 
 export function Projects() {
   const projectItems = projects.map((project, index) => {
     return (
-      <Project
+      <ProjectCard
         key={index}
         title={project.title}
         img={project.images.smallImage}
