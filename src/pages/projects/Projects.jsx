@@ -9,6 +9,7 @@ export function Projects() {
     return (
       <ProjectCard
         key={index}
+        index={index}
         title={project.title}
         img={project.images.smallImage}
       />

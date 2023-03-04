@@ -7,6 +7,13 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export function Navbar() {
+  const activeLink = "nav-list__link nav-list__link--active";
+  const normalLink = "nav-list__link";
+
+  const checkIsLinkActive = () => {
+    return ({ isActive }) => (isActive ? activeLink : normalLink);
+  };
+
   return (
     <nav className="nav">
       <div className="container">
@@ -22,17 +29,17 @@ export function Navbar() {
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink to="/" className="nav-list__link nav-list__link--active">
+              <NavLink to="/" className={checkIsLinkActive()}>
                 Home
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/projects" className="nav-list__link">
+              <NavLink to="/projects" className={checkIsLinkActive()}>
                 Projects
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/contacts" className="nav-list__link">
+              <NavLink to="/contacts" className={checkIsLinkActive()}>
                 Contacts
               </NavLink>
             </li>

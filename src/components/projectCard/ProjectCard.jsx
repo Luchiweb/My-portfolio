@@ -1,12 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-export function ProjectCard({ img, title }) {
+export function ProjectCard({ img, title, index }) {
   return (
-    <li className="project">
-      <a href="#!">
+    <NavLink to={`/project/${index}`}>
+      <li className="project">
         <img src={img} alt={title} className="project__img" />
         <h3 className="project__title">{title}</h3>
-      </a>
-    </li>
+      </li>
+    </NavLink>
   );
 }
