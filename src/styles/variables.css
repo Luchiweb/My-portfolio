@@ -9,6 +9,7 @@
   --white: #fff;
   --yellow: #f9a01b;
 
+  /* Light mode */
   --accent: var(--yellow);
   --page-bg: var(--white);
   --text-color: var(--black);
@@ -31,4 +32,16 @@
   --project-card-bg: var(--white);
   --project-card-text: var(--black);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Dark mode */
+.dark {
+  --page-bg: #252526;
+  --text-color: var(--white);
+
+  --title-1: var(--white);
+
+  --project-card-bg: var(--black);
+  --project-card-text: var(--white);
+  --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }

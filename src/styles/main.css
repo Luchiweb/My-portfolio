@@ -1,11 +1,14 @@
 @import "./reset.css";
 @import "./variables.css";
+@import "./media.css";
 
 .App {
   font-family: "DM Sans", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: var(--page-bg);
+  color: var(--text-color);
 }
 
 .container {
@@ -16,6 +19,10 @@
 
 .section {
   padding: 70px 0;
+}
+
+.none {
+  display: none !important;
 }
 
 .title-1 {
