@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import instagram from "../../img/icons/instagram.svg";
 import twitter from "../../img/icons/twitter.svg";
 import gitHub from "../../img/icons/gitHub.svg";
 import linkedIn from "../../img/icons/linkedIn.svg";
@@ -12,22 +11,29 @@ export function Footer() {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
-                <img src={instagram} alt="Link" />
-              </a>
-            </li>
-            <li className="social__item">
-              <a href="#!">
+              <a
+                href="https://twitter.com/web_luchi"
+                target={"_blank"}
+                rel="noopener"
+              >
                 <img src={twitter} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a
+                href="https://github.com/Luchiweb"
+                target={"_blank"}
+                rel="noopener"
+              >
                 <img src={gitHub} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a
+                href="https://www.linkedin.com/in/svetlana-moiseienko-504535240/"
+                target={"_blank"}
+                rel="noopener"
+              >
                 <img src={linkedIn} alt="Link" />
               </a>
             </li>
