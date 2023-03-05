@@ -73,4 +73,9 @@
   .social__item {
     width: 28px;
   }
+
+  /* Button dark mode */
+  .dark-mode-btn {
+    order: -1;
+  }
 }
