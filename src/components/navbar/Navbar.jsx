@@ -1,3 +1,4 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { ButtonDarkMode } from "../buttonDarkMode/ButtonDarkMode";
 import "./Navbar.css";
@@ -19,7 +20,7 @@ export function Navbar() {
           </NavLink>
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink to="/" className={checkIsLinkActive()}>
+              <NavLink to="My-portfolio/" className={checkIsLinkActive()}>
                 Home
               </NavLink>
             </li>

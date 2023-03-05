@@ -1,3 +1,4 @@
+import React from "react";
 import "./styles/main.css";
 import { Footer } from "./components/footer/Footer";
 import { Navbar } from "./components/navbar/Navbar";
@@ -15,7 +16,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="My-portfolio/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<Project />} />
           <Route path="/contacts" element={<Contacts />} />

@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import { projects } from "../../helpers/projectList";
 import gitHubIcon from "../../img/icons/gitHub-black.svg";
@@ -27,7 +28,7 @@ export function Project() {
             <a
               href={project.gitHubLink}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn-outline"
             >
               <img src={gitHubIcon} alt="gitHubIcon" />
