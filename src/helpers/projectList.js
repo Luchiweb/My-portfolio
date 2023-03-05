@@ -1,71 +1,38 @@
-import streamingPortal from "../img/projects/01.jpg";
-import streamingPortalBig from "../img/projects/01-big.jpg";
+import musicWebsite from "../img/projects/01.jpg";
+import musicWebsiteBig from "../img/projects/01-big.jpg";
 
-import videoService from "../img/projects/02.jpg";
-import videoServiceBig from "../img/projects/02-big.jpg";
+import portfolio from "../img/projects/02.jpg";
+import portfolioBig from "../img/projects/02-big.jpg";
 
-import videoPortal from "../img/projects/03.jpg";
-import videoPortalBig from "../img/projects/03-big.jpg";
-
-import datingApp from "../img/projects/04.jpg";
-import datingAppBig from "../img/projects/04-big.jpg";
-
-import landing from "../img/projects/05.jpg";
-import landingBig from "../img/projects/05-big.jpg";
-
-import gamingComunity from "../img/projects/06.jpg";
-import gamingComunityBig from "../img/projects/06-big.jpg";
+import hungman from "../img/projects/03.jpg";
+import hungmanBig from "../img/projects/03-big.jpg";
 
 export const projects = [
   {
-    title: "Gaming streaming portal",
-    skills: "React, Node.js, MongoDB",
+    title: "Landing of music website",
+    skills: "TailwindCSS, HTML, Flowbite",
     images: {
-      smallImage: streamingPortal,
-      bigImage: streamingPortalBig,
+      smallImage: musicWebsite,
+      bigImage: musicWebsiteBig,
     },
-    gitHubLink: "https://github.com",
+    gitHubLink: "https://github.com/Luchiweb/MusicVibe",
   },
   {
-    title: "Video service",
-    skills: "React, PHP, MySql",
+    title: "Portfolio landing",
+    skills: "JavaScript, CSS, HTML",
     images: {
-      smallImage: videoService,
-      bigImage: videoServiceBig,
+      smallImage: portfolio,
+      bigImage: portfolioBig,
     },
-    gitHubLink: "https://github.com",
+    gitHubLink: "https://github.com/Luchiweb/Portfolio",
   },
   {
-    title: "Video portal",
-    skills: "Vue JS, Node.js, MongoDB",
+    title: "Game Hungman",
+    skills: "TypeScript, HTML, CSS",
     images: {
-      smallImage: videoPortal,
-      bigImage: videoPortalBig,
+      smallImage: hungman,
+      bigImage: hungmanBig,
     },
-    gitHubLink: "https://github.com",
-  },
-  {
-    title: "Dating app",
-    skills: "React Native",
-    images: {
-      smallImage: datingApp,
-      bigImage: datingAppBig,
-    },
-  },
-  {
-    title: "Landing",
-    skills: "HTML, SCSS, JS",
-    images: {
-      smallImage: landing,
-      bigImage: landingBig,
-    },
-  },
-  {
-    title: "Gaming community",
-    skills: "React, PHP, MySql",
-    images: {
-      smallImage: gamingComunity,
-      bigImage: gamingComunityBig,
-    },
+    gitHubLink: "https://github.com/Luchiweb/hungman",
   },
 ];
