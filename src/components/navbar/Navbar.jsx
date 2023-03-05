@@ -15,7 +15,7 @@ export function Navbar() {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <NavLink to="/" className="logo">
+          <NavLink to="My-portfolio/" className="logo">
             <strong>Inspire</strong> portfolio
           </NavLink>
           <ul className="nav-list">
