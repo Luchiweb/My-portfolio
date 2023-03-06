@@ -55,3 +55,9 @@
   position: relative;
   top: 1px;
 }
+
+@media (max-width: 620px) {
+  .project__title {
+    font-size: 22px;
+  }
+}

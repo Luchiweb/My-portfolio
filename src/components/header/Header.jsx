@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../../img/CV.pdf";
 
 export function Header() {
   return (
@@ -14,9 +15,11 @@ export function Header() {
           <p>with passion for learning and creating.</p>
         </div>
         <a
-          href="../../img/CV.pdf"
+          href={cv}
           className="btn"
           download={"Svitlana_Moiseienko_cv"}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Download CV
         </a>

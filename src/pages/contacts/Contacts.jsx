@@ -11,15 +11,25 @@ export function Contacts() {
             <p>Poznan, Poland</p>
           </li>
           <li className="content-list__item">
-            <h2 className="title-2">Telegram / WhatsApp</h2>
+            <h2 className="title-2">Telegram</h2>
             <p>
-              <a href="tel:+48884629496">+48 (884) 629 496</a>
+              <a
+                href="https://t.me/Luchi_web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @Luchi_web
+              </a>
             </p>
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Email</h2>
             <p>
-              <a href="mailto:svetlana.moiseienko.web@gmail.com">
+              <a
+                href="mailto:svetlana.moiseienko.web@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 svetlana.moiseienko.web@gmail.com
               </a>
             </p>

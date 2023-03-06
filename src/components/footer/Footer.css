@@ -25,3 +25,21 @@
 .copyright p + p {
   margin-top: 0.5em;
 }
+
+@media (max-width: 620px) {
+  .footer {
+    padding: 40px 0 30px;
+  }
+
+  .footer__wrapper {
+    row-gap: 20px;
+  }
+
+  .social {
+    column-gap: 20px;
+  }
+
+  .social__item {
+    width: 28px;
+  }
+}

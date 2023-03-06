@@ -15,6 +15,7 @@ export function Navbar() {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
+          <ButtonDarkMode />
           <NavLink to="My-portfolio/" className="logo">
             <strong>Inspire</strong> portfolio
           </NavLink>
@@ -35,7 +36,6 @@ export function Navbar() {
               </NavLink>
             </li>
           </ul>
-          <ButtonDarkMode />
         </div>
       </div>
     </nav>
