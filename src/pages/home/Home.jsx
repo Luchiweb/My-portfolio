@@ -12,8 +12,8 @@ export function Home() {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                ReactJS, Redux, TypeScript, JavaScript, HTML, CSS, BootStrap,
-                TailwindCSS, MaterialUI, NPM, Yarn
+                RTK Query, ReactJS, Redux, TypeScript, JavaScript, HTML, CSS, BootStrap,
+                TailwindCSS, MaterialUI
               </p>
             </li>
             <li className="content-list__item">
