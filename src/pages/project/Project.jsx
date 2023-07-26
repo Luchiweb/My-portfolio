@@ -32,7 +32,7 @@ export function Project() {
               className="btn-outline"
             >
               <img src={gitHubIcon} alt="gitHubIcon" />
-              GitHub repo
+              GitHub repo / link
             </a>
           )}
         </div>

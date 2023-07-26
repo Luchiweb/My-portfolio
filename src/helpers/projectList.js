@@ -16,6 +16,12 @@ import shelterBig from "../img/projects/05-big.jpg"
 import seo from "../img/projects/06.jpg"
 import seoBig from "../img/projects/06-big.jpg"
 
+import selectors from "../img/projects/07.jpg"
+import selectorsBig from "../img/projects/07-big.jpg"
+
+import minesweeper from "../img/projects/08.jpg"
+import minesweeperBig from "../img/projects/08-big.jpg"
+
 export const projects = [
   {
     title: "Landing of music website",
@@ -70,5 +76,23 @@ export const projects = [
       bigImage: seoBig,
     },
     gitHubLink: "http://seo-socks.com/",
+  },
+  {
+    title: "CSS Selectors",
+    skills: "TypeScript, CSS, Webpack, JEST",
+    images: {
+      smallImage: selectors,
+      bigImage: selectorsBig,
+    },
+    gitHubLink: "https://rolling-scopes-school.github.io/luchiweb-JSFE2023Q1/css-selectors/",
+  },
+  {
+    title: "Game minesweeper",
+    skills: "JavaScript, HTML, CSS",
+    images: {
+      smallImage: minesweeper,
+      bigImage: minesweeperBig,
+    },
+    gitHubLink: "https://rolling-scopes-school.github.io/luchiweb-JSFE2023Q1/minesweeper/",
   },
 ];
